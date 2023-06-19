@@ -1,6 +1,6 @@
 import {createConnection} from "typeorm";
-import User from "./models/User";
-import Book from "./models/Book";
+import User from "../models/User";
+import Book from "../models/Book";
 
 export default createConnection({
     host: "localhost",

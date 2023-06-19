@@ -1,6 +1,6 @@
 import express, {Express} from 'express';
-import routes from './routes';
-import connection from "./connection";
+import routes from './routes/index';
+import connection from "./config/connection";
 const app: Express = express();
 
 
