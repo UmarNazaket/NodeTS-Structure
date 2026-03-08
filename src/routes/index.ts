@@ -1,8 +1,7 @@
-import express,{Express} from 'express';
-import userRoutes from './userRoutes';
+import express, { Router } from 'express';
+import userRoutes from './user.routes';
 
-const router: Express = express();
-
+const router: Router = express.Router();
 
 router.use('/users', userRoutes);
 
